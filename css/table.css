@@ -1,0 +1,93 @@
+
+table {
+    width: 50%;
+    
+}
+
+img {
+    border: none;
+    height: 6cm;
+}
+
+img:hover {
+    transform:scale(1.5);
+    transition-duration: 5s;
+    text-decoration: none;
+    border: none;
+}
+
+table.ceneter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: solid 3px black;
+    color: black !important;
+    text-align: left;
+}
+
+
+[rowspan], tfoot {
+    background-color: gray;
+}
+
+dl {
+    text-align: center;
+}
+
+dt {
+    font-weight: 800;
+    font-size: 1.5em;
+    padding-top: 3%;
+}
+
+dd {
+    font-style: oblique;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+th {
+    background-color: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    text-align: center;
+}
+
+.prvni {
+    background-color: gray;
+} 
+
+.druhy {
+    background-color: gray;
+}
+
+.treti {
+    background-color: gray;
+}
+
+.ctvrty {
+    background-color: gray;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.ctvrty a:visited {
+    color: black;
+    text-transform: none;
+}
+
+.ctvrty a {
+    text-decoration: underline solid black 2px;
+    text-transform: none;
+}
+
+
+caption {
+  
+    border-top: solid black 3px;
+    border-left: solid black 3px;
+    border-right: solid black 3px;
+    border-radius: 10px 10px 0px 0px ;
+}

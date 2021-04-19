@@ -1,0 +1,31 @@
+.anim {
+    position: absolute;
+    animation: mymove 10s;
+    animation-timing-function: steps(1,1);
+    z-index: 0 !important;
+    animation-fill-mode: backwards;
+}
+
+@keyframes mymove {
+    from {left: -20%;}
+    to {left: 150%;}
+}
+
+.tajemstvi {
+    opacity: 0;
+    transition: 3s;
+    overflow: hidden;
+    border: none !important;
+}
+
+.tajemstvi:hover {
+    opacity: 0.8;
+    transition: 25s;
+    border: none;
+    
+}
+
+figcaption {
+    font-size: 17px;
+    
+}

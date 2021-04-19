@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/tulen-upraveny.png" type="image/png" sizes="50x50">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/multimedia.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Tabulka v HTML</title>
+</head>
+
+
+
+<body>
+    <!--Horní navigační lišta-->
+    <div class="topnav">
+        <a href="./galerie/index.html">Fotogalerie</a>
+        <a class="active" href="#">Tabulka</a>
+        <a href="./multimedia.html">Multimédia</a>
+    </div>
+    <section>
+    <header>
+        <h1>
+            Tabulky v HTML </i>
+
+        </h1>
+    </header>
+
+    <main>
+        <h2>Slavná osobnost :<br> Michael Jackson</h2>
+        <br>
+        <table class="ceneter">
+            <caption>Vizitka slavné osobnosti</caption>
+            <thead>
+                <tr>
+                    <th>Portrét</th>
+                    <th colspan="2">Základní údaje</th>
+                    <th>Význanmné činy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td class="prvni" rowspan="3"><img src="img/michael.jpg" alt="Michael Jackson" width="250px"></td>
+                    <td class="druhy" colspan="2">Michael Jackson</td>
+                    <td class="treti" rowspan="4">
+                        alba:<br>
+                        Got to Be There; Ben; Music & Me; Forever, Michael; Off the Wall; Thriller; Bad; Dangerous;
+                        HIStory; Invincible
+                    </td>
+                </tr>
+                <tr>
+                    <td class="druhy">29. 8. 1958</td>
+                    <td class="druhy">25. 5. 2009</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2" class="druhy">Americký popový zpěvák, skladatel, choreograf, tanečník,
+                        producent. Je označován za krále popu. Byl zástupcem konvenčního popu a taneční hudby,
+                        vycházející ze soulu. Kromě svého charakteristicky vysokého hlasu, rytmického cítění a tanečních
+                        schopností byl znám i jako velký perfekcionista. Za svoji kariéru získal celkem 13 cen Grammy a
+                        26 cen American Music Award.</td>
+                </tr>
+                <tr>
+                    <td class="prvni">Michael Jackson</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="ctvrty"><a href="https://cs.wikipedia.org/wiki/Michael_Jackson"
+                            target="_blank">Odkaz na wikipedii</a></td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <h2>Značky a atributy tabulky</h2>
+        <dl>
+            <dt>tr</dt>
+            <dd>Vytvoření řady tabulky</dd>
+            <dt>th</dt>
+            <dd>Nadpis kategorie tabulky</dd>
+            <dt>td</dt>
+            <dd>Data jednotlivých buněk tabulky</dd>
+            <dt>colspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
+            <dt>rowspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
+            <dt>table</dt>
+            <dd>Značka, která zajistí ohraničení celé tabulky</dd>
+            <dt>thead</dt>
+            <dd>Záhlaví tabulky</dd>
+            <dt>tbody</dt>
+            <dd>Tělo tabulky</dd>
+            <dt>tfoot</dt>
+            <dd>Pata (spodní část) tabulky</dd>
+
+        </dl>
+    </main>
+    <footer>
+        <hr> 
+        <p>Aleš Najser - IT1</p>
+    </footer>
+</section>
+</body>
+
+</html>

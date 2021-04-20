@@ -1,12 +1,12 @@
 
 table {
     width: 50%;
-    
+    background-color: #8a8a8a;
 }
 
 img {
     border: none;
-    height: 6cm;
+    height: 4cm;
 }
 
 img:hover {
@@ -25,12 +25,13 @@ table, th, td {
     border-collapse: collapse;
     border: solid 3px black;
     color: black !important;
-    text-align: left;
+    text-align: center;
+    background-color: #8a8a8a;
 }
 
 
 [rowspan], tfoot {
-    background-color: gray;
+    background-color: #8a8a8a;
 }
 
 dl {
@@ -55,19 +56,21 @@ th {
 }
 
 .prvni {
-    background-color: gray;
+    background-color: #8a8a8a;
+   
 } 
 
 .druhy {
-    background-color: gray;
+    background-color: #8a8a8a;
+    text-align: center;
 }
 
 .treti {
-    background-color: gray;
+    background-color: #8a8a8a;
 }
 
 .ctvrty {
-    background-color: gray;
+    background-color: #8a8a8a;
     text-align: center;
     padding: 10px 0px;
     text-decoration: none;
@@ -90,4 +93,5 @@ caption {
     border-left: solid black 3px;
     border-right: solid black 3px;
     border-radius: 10px 10px 0px 0px ;
+    background-color: #8a8a8a;
 }

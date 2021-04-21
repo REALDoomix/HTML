@@ -6,7 +6,6 @@ table {
 
 img {
     border: none;
-    height: 4cm;
 }
 
 img:hover {
@@ -95,3 +94,5 @@ caption {
     border-radius: 10px 10px 0px 0px ;
     background-color: #8a8a8a;
 }
+
+

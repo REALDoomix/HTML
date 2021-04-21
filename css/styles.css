@@ -34,9 +34,14 @@ body {
 }
 
 h1 {
-padding-top: 1%;
     text-align: center;
- 
+    border-radius: 0px;
+    border: black solid;
+    border-width: 2px 5px;
+    padding: 1%;
+    color: black;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 .mode {
 
@@ -77,13 +82,7 @@ figure {
     text-align: center;
 }
 
-img:hover {
-    transition: 1s;
-    opacity: 1;
-    transform: scale(1.5);
-    border: rgb(235, 38, 38) 4px solid ;
-    
-}
+
 
 body {
     background-color: whitesmoke;
@@ -120,8 +119,6 @@ h2 {
     position: fixed;
     z-index: 1;
 	color: #fff;
-
-
   }
   
   /* Style the links inside the navigation bar */
@@ -146,6 +143,29 @@ h2 {
     color: white;
   }
 
-  
+.italien,video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: auto;
+    border: 3px solid #8a8a8a;
+}  
 
+audio {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
 
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+}

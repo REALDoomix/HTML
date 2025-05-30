@@ -1,7 +1,6 @@
 
 table {
     width: 50%;
-    background-color: #8a8a8a;
 }
 
 img {
@@ -20,18 +19,16 @@ table.ceneter {
     margin-right: auto;
 }
 
+
 table, th, td {
     border-collapse: collapse;
     border: solid 3px black;
     color: black !important;
     text-align: center;
-    background-color: #8a8a8a;
+    background: rgba(255,255,255,0.3) !important;
 }
 
 
-[rowspan], tfoot {
-    background-color: #8a8a8a;
-}
 
 dl {
     text-align: center;
@@ -54,22 +51,14 @@ th {
     text-align: center;
 }
 
-.prvni {
-    background-color: #8a8a8a;
-   
-} 
 
 .druhy {
-    background-color: #8a8a8a;
     text-align: center;
 }
 
-.treti {
-    background-color: #8a8a8a;
-}
 
 .ctvrty {
-    background-color: #8a8a8a;
+    background-color: rgba(255,255,255,0.4) !important;
     text-align: center;
     padding: 10px 0px;
     text-decoration: none;
@@ -92,7 +81,7 @@ caption {
     border-left: solid black 3px;
     border-right: solid black 3px;
     border-radius: 10px 10px 0px 0px ;
-    background-color: #8a8a8a;
+    background-color: rgba(255,255,255,0.5) !important;
 }
 
 
